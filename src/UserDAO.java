@@ -59,7 +59,7 @@ public class UserDAO {
 
 
 
-    public List<User> returnAll() throws Exception{
+   /* public List<User> returnAll() throws Exception{
         conn = connect();
         List<User> list = new ArrayList<>();
 
@@ -101,5 +101,5 @@ public class UserDAO {
         }finally {
             conn.close();
         }
-    }
+    }*/
 }
