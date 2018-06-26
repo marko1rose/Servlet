@@ -59,9 +59,9 @@ public class UserDAO {
 
 
 
-   /* public List<User> returnAll() throws Exception{
+   /* public ListUsers<User> returnAll() throws Exception{
         conn = connect();
-        List<User> list = new ArrayList<>();
+        ListUsers<User> list = new ArrayList<>();
 
         try{
             ResultSet rs = conn.createStatement().executeQuery("select * from user");
